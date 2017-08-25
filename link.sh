@@ -41,3 +41,7 @@ echo $'\nLink:'
 		ln -v -s "$SCRIPTPATH/configs/$ITEM" "$HOME/$ITEM"
 	done
 
+	if [[ "$PLATFORM" == 'Darwin' ]]; then
+		# cp -r $SCRIPTPATH/configs/.config/osx_LaunchAgends/*.plist "$HOME/Library/LaunchAgents/"
+
+	fi

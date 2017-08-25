@@ -5,7 +5,7 @@ set number
 set ruler
 set cursorline
 set title
-set mouse=a
+" set mouse=a
 
 filetype plugin indent on
 set smarttab
