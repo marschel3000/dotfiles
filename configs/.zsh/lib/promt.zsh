@@ -44,7 +44,7 @@ zstyle ':vcs_info:*' actionformats "${MAGENTA}(${NO_COLOR}%s${MAGENTA})${YELLOW}
 precmd () { vcs_info }
 
 p0="${RED}%(?..%? )${WHITE}${debian_chroot:+($debian_chroot)}"
-p1="${BLUE}%n${NO_COLOR}@%m %40<...<%B%~%b%<< "'${vcs_info_msg_0_}'"%# "
+p1="%n${NO_COLOR}@%m %40<...<%B%~%b%<< "'${vcs_info_msg_0_}'"%# "
 if (( EUID == 0 )); then
 	PROMPT="${BLUE}${p0}${RED}${p1}"
 else
