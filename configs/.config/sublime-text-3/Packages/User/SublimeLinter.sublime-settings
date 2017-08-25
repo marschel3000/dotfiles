@@ -1,0 +1,160 @@
+{
+    "user": {
+        "debug": false,
+        "delay": 0.25,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "annotations": {
+                "@disable": false,
+                "args": [],
+                "errors": [
+                    "FIXME"
+                ],
+                "excludes": [],
+                "warnings": [
+                    "TODO",
+                    "README"
+                ]
+            },
+            "coffee": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "coffeelint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "ignore_match": [
+                    "Use of !important",
+                    "Don't use IDs in selector",
+                    "(?:.*) can sometimes make elements larger than you expect",
+                    "Background image(?:.*) was used multiple times, first declared (?:.*)",
+                    "(?:.*) is overqualified, just use (?:.*)",
+                    "(?:[1-9]) IDs in the selector, really?",
+                    "Rule is empty",
+                    "Heading (?:[(]h[1-9][)]) should not be qualified",
+                    "Outlines should only be modified using :focus",
+                    "Too many !important declarations (?:.*)",
+                    "Too many font-size declarations (?:.*)",
+                    "Don't use adjoining classes",
+                    "Negative text-indent doesn't work well with RTL. (?:.*)"
+                ],
+                "warnings": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [
+                    "*.asp",
+                    "*.thtml"
+                ],
+                "ignore_match": [
+                    "Use '===' to compare with",
+                    "Use '!==' to compare with"
+                ]
+            },
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "strict": true
+            },
+            "pep8": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore": "",
+                "max-line-length": 150,
+                "select": ""
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore_match": [
+                    "unexpected 'version'"
+                ]
+            },
+            "phpmd": {
+                "@disable": false,
+                "args": [
+                    "--strict"
+                ],
+                "excludes": [],
+                "rulesets": "design,naming,unusedcode"
+            },
+            "sass": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "ignore_match": [
+                    "Vendor prefixes should not be used.",
+                    "Indentation of (?:[0-9]), expected (?:[0-9]).",
+                    "Property `(?:[0-9a-z-\\*_])*` appears to be spelled incorrectly.",
+                    "Selectors must be placed on new lines.",
+                    "Class should be nested within",
+                    "Qualifying elements are not allowed for",
+                    "Duplicate properties are not allowed within",
+                    "Class '.(?:[0-9a-zA-Z_])*' should be written in lowercase with hyphens",
+                    "!important not allowed.",
+                    "Space expected between blocks.",
+                    "Nesting depth (?:[0-9]) greater than max",
+                    "ID selectors not allowed.",
+                    "Attribute-selector should be nested within it",
+                    "Type-selector should be nested within it",
+                    "Property `(?:[0-9a-z])*` should be written more concisely",
+                    "Expected `(?:[0-9a-z-\\*_])*`, found `(?:[0-9a-z-\\*_])*`",
+                    "Mixed tabs and spaces"
+                ],
+                "warnings": ""
+            },
+            "xmllint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "outline",
+        "no_column_highlights_line": false,
+        "passive_warnings": true,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": true,
+        "show_marks_in_minimap": true,
+        "show_warnings_on_save": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "php": "html",
+            "python django": "python"
+        },
+        "tooltip_fontsize": "1rem",
+        "tooltip_theme": "Packages/SublimeLinter/tooltip-themes/Default/Default.tooltip-theme",
+        "tooltip_theme_excludes": [],
+        "tooltips": false,
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
+}

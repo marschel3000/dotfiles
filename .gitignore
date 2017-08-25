@@ -1,0 +1,20 @@
+*.pyc
+*.DS_Store
+*.cache
+
+configs/.config/sublime-text-3/Backup
+configs/.config/sublime-text-3/Cache
+configs/.config/sublime-text-3/Index
+configs/.config/sublime-text-3/Local
+
+*dependency-metadata.json
+configs/.config/sublime-text-3/Packages/User/Package Control.merged-ca-bundle
+configs/.config/sublime-text-3/Packages/User/Package Control.last-run
+configs/.config/sublime-text-3/Packages/User/Package Control.ca-list
+configs/.config/sublime-text-3/Packages/User/Package Control.ca-bundle
+configs/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle
+configs/.config/sublime-text-3/Packages/User/Package Control.system-ca-bundle
+configs/.config/sublime-text-3/Packages/User/Package Control.cache/
+configs/.config/sublime-text-3/Packages/User/Package Control.ca-certs/
+configs/.config/sublime-text-3/Packages/User/oscrypto-ca-bundle.crt
+configs/.config/sublime-text-3/Packages/PyV8

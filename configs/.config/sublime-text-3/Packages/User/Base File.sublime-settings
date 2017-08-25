@@ -1,0 +1,18 @@
+{
+	// The mid-line characters to align in a multi-line selection, changing
+	// this to an empty array will disable mid-line alignment
+	"alignment_chars": ["=", ":"],
+
+	"mid_line_tabs": true,
+
+	"jsdocs_short_primitives": false,
+
+	"jsdocs_return_description": false,
+	"jsdocs_param_description": false,
+
+	"jsdocs_param_name":              true,
+	"jsdocs_spacer_between_sections": false,
+	"jsdocs_function_description":    true,
+
+	"jsdocs_align_tags": "deep",
+}

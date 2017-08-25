@@ -1,0 +1,14 @@
+{
+    "exclude_folders": [
+        "*.git*",
+        "*/public/js/*/*",
+        "*/modules/vendors/*",
+        "*/chive/*"
+    ],
+    "exclude_files": [
+        "jquery-1.3.2.js",
+        "*.pdf"
+    ],
+    "render_include_folder": true,
+    "render_spaces": 30
+}

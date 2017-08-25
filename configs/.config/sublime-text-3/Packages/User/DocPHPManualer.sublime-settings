@@ -1,0 +1,12 @@
+{
+	"auto": true,
+	"auto_delay": 500,
+	"language": "en",
+	"language_fallback": "en",
+	"languages":
+	{
+		"de": "gz",
+		"en": "gz"
+	},
+	"use_panel": false
+}

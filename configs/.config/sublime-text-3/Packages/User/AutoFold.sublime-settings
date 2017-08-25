@@ -1,0 +1,37 @@
+{
+  "attributes" : [ // attributes to auto-fold
+    "rel",
+    "href",
+    "content"
+  ],
+
+  "tags": [ // tags auto-fold (open and close in the same line)
+    "script"
+  ],
+
+  "urls": {
+    "regexp": "https?://[^\\s\"')]+",
+    "substr": 20
+  },
+  // multiline regexps must include \n.
+  // "." does not mach new lines
+  // ?<= positive lookbehind must have fixed size
+  "regexps": [ // regexps to auto-fold
+    // Example: fold all css comments /* ... */
+    // "(?<=/\\*)(.|\n)*?(?=\\*/)"
+  ],
+
+  "extensions": [  // activate this plugin for file extensions:
+    "html",
+    "htm",
+    "css",
+    "sass",
+    "styl",
+    "less",
+    "xml",
+    "md"
+  ],
+
+  "runOnLoad": true, // auto-fold on load
+  "runOnSave": true // auto-fold on save
+}

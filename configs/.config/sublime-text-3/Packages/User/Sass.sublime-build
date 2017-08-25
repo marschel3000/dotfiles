@@ -1,0 +1,5 @@
+{
+    "shell_cmd": "/usr/local/bin/sass --update ${project_path}/htdocs/modules/public/sass/src:${project_path}/htdocs/modules/public/sass/css --line-numbers --line-comments --style expanded --unix-newlines --no-cache",
+    "selector": "*.sass, *.scss",
+    "line_regex": "Line ([0-9]+):"
+}

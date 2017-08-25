@@ -1,0 +1,40 @@
+# Temporary files
+*.swp
+*.swo
+*~
+*.cache
+
+# OS stuff
+*.DS_Store
+.Spotlight-V100
+.Trashes
+Icon?
+
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN
+
+*.directory
+
+# sublime project-files
+*.sublime-project
+*.sublime-workspace
+
+# kdevelop project-files
+*.kdev*
+
+# apache defaults
+*/htdig
+*/phpMyAdmin
+*/chive
+
+# SASS
+.sass-cache
+*.css.map
+
+# Python
+*.py[cod]
+
+# always keep .gitkeep
+!.gitkeep

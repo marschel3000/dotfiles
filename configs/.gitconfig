@@ -1,0 +1,59 @@
+[user]
+	name = [foo]
+	email = [bar]
+	signingkey = [xxx]
+
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	ci = commit
+	aa = add --all
+
+	logg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	logs = log --show-signaturg
+	unstage = reset HEAD --
+	last = log -1 HEAD
+
+	diffdev = diff develop..HEAD --name-status
+[core]
+	filemode = false
+	autocrlf = input
+	editor = vim
+	excludesfile = ~/.gitignore
+
+[commit]
+	gpgsign = true
+[push]
+	default = simple
+[pull]
+	rebase = true
+[branch]
+	autosetuprebase = never
+[log]
+	decorate = auto
+
+[color]
+	ui = true
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[gc]
+	autoDetach = false
+#[gpg]
+	#program = gpg2
+[grep]
+	lineNumber = true
+

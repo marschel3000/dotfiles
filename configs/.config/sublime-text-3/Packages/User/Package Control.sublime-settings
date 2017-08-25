@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Comments",
+		"CSS Completions",
+		"DashDoc",
+		"Djaneiro",
+		"DocBlockr",
+		"DocBlockr_Python",
+		"Emmet",
+		"FileSystem Autocompletion",
+		"Function Name Display",
+		"Git Config",
+		"HTML5",
+		"HTMLAttributes",
+		"Indent XML",
+		"jQuery",
+		"jQuery Snippets for Coffeescript",
+		"JSON Reindent",
+		"Markdown Extended",
+		"Package Control",
+		"PhpDoc",
+		"Pretty JSON",
+		"Sass",
+		"Sassy Comments",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-pep8",
+		"SublimeLinter-php",
+		"SublimeLinter-phpmd",
+		"SublimeLinter-xmllint",
+		"TodoReview",
+		"VAlign"
+	]
+}

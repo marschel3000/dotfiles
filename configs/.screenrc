@@ -1,0 +1,13 @@
+
+caption always "%{+b rk}$USER@%{wk}%H | %{yk}(load: %l)  %-21=%{wk}%D %Y-%m-%d %0c"
+hardstatus alwayslastline "%{wr}%n%f %t %{kw} | %?%-Lw%?%{wb}%n*%f %t%?(%u)%?%{kw}%?%+Lw%? %{wk}"
+
+shell /bin/zsh
+
+sorendition 10 99 # default!
+
+pow_detach_msg "Screen session of \$LOGNAME \$:cr:\$:nl:ended."
+
+
+
+

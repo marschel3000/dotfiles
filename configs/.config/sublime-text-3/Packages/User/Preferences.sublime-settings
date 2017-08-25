@@ -1,0 +1,43 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 1,
+	"caret_style": "blink",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".svn",
+		".git",
+		".cordova"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		100
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"soda_classic_tabs": true,
+	"tab_size": 8,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
