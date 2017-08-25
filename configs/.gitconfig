@@ -11,11 +11,13 @@
 	aa = add --all
 
 	logg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
-	logs = log --show-signaturg
+	logs = log --show-signature
 	unstage = reset HEAD --
 	last = log -1 HEAD
 
 	diffdev = diff develop..HEAD --name-status
+
+	intdev = merge --ff -m "Merged 'develop'." develop
 [core]
 	filemode = false
 	autocrlf = input
@@ -24,6 +26,7 @@
 
 [commit]
 	gpgsign = true
+	gpgSign = true # smartgit?
 [push]
 	default = simple
 [pull]
@@ -52,8 +55,8 @@
 
 [gc]
 	autoDetach = false
-#[gpg]
-	#program = gpg2
+[gpg]
+	program = gpg2
 [grep]
 	lineNumber = true
 
