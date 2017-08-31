@@ -14,7 +14,8 @@
 		".git",
 		".cordova"
 	],
-	"font_size": 12,
+	"font_size": 13,
+	"font_face":  "Source Code Pro Light",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
