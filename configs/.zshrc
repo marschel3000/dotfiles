@@ -1,5 +1,5 @@
 # iTerm Integration
-if [[ -e "~/.iterm2_shell_integration.zsh" ]]; then
+if [[ -e "${HOME}/.iterm2_shell_integration.zsh" ]]; then
 	ITERM2_SHOULD_DECORATE_PROMPT=0
 	source "${HOME}/.iterm2_shell_integration.zsh"
 fi
@@ -9,7 +9,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export EDITOR=vim
 
-# Load all of the config files in ~/oh-my-zsh that end in .zsh
+# Load all of the config files .zsh
 for config_file ($HOME/.zsh/lib/*.zsh) source $config_file
 
 # Changing/making/removing directory
@@ -33,4 +33,8 @@ fi
 
 if [[ $(uname -s) == 'Darwin' ]]; then
 	export PATH="/usr/local/sbin:$PATH"
+fi
+
+if [[ -e "$HOME/.zshrc.local" ]]; then
+	source "${HOME}/.zshrc.local"
 fi
