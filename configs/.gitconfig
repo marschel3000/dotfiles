@@ -9,6 +9,7 @@
 	st = status
 	ci = commit
 	aa = add --all
+	pp = !git pull && git push
 
 	logg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
 	logs = log --show-signature
@@ -35,24 +36,8 @@
 	autosetuprebase = never
 [log]
 	decorate = auto
-
 [color]
 	ui = true
-[color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
-[color "status"]
-	added = green bold
-	changed = yellow bold
-	untracked = red bold
-[color "branch"]
-	current = yellow reverse
-	local = yellow
-	remote = green
-
 [gc]
 	autoDetach = false
 [gpg]
