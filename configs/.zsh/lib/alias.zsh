@@ -17,9 +17,14 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias cd..='cd ..'
 
-alias openports='netstat --all --numeric --programs --inet'
-
 alias grep='grep --color=auto -n'
 
 alias df='df -h'
 alias du='du -c -h'
+
+
+if [[ $(uname -s) == 'Linux' ]]; then
+	alias openports='netstat --all --numeric --programs --inet'
+elif [[ $(uname -s) == 'Darwin' ]]; then
+	alias openports='sudo lsof -nP | grep --color=never LISTEN'
+fi
