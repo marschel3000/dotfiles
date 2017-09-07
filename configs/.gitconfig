@@ -18,7 +18,8 @@
 
 	diffdev = diff develop..HEAD --name-status
 
-	intdev = merge --ff -m "Merged 'develop'." develop
+	intdev = merge --ff -m 'Merged develop' develop
+
 [core]
 	filemode = false
 	autocrlf = input
@@ -45,3 +46,5 @@
 [grep]
 	lineNumber = true
 
+[mergetool]
+	keepBackup = false
