@@ -14,8 +14,8 @@
 		".git",
 		".cordova"
 	],
+	"font_face": "Source Code Pro",
 	"font_size": 12,
-	"font_face":  "Source Code Pro",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -32,13 +32,15 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		100
+		120
 	],
-	"save_on_focus_lost": true,
+	"save_on_focus_lost": false,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-	"tab_size": 8,
+	"tab_size": 4,
+	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": false,
 	"word_wrap": false
 }

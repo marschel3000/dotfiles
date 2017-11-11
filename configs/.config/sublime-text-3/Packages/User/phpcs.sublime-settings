@@ -1,4 +1,7 @@
 {
+    "extensions_to_execute": ["php", "asp", "thtml"],
+    "phpcs_sniffer_run": true,
+
     // Execute the sniffer on file save
     "phpcs_execute_on_save": true,
 
@@ -40,8 +43,6 @@
 
     // PHP_CodeSniffer settings
 
-    // Do you want to run the phpcs checker?
-    "phpcs_sniffer_run": true,
 
     // Execute the sniffer on file save
     "phpcs_command_on_save": true,
@@ -58,7 +59,7 @@
     //     "-n"
     // }
     "phpcs_additional_args": {
-        "--standard": "PSR1",
+        "--standard": "~/workspace/myshs.git/tools/phpcs/myshs-ruleset.xml",
         "-n": ""
     },
 
