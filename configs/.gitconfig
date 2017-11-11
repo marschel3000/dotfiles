@@ -31,8 +31,6 @@
 	gpgSign = true # smartgit?
 [push]
 	default = simple
-[pull]
-	rebase = true
 [branch]
 	autosetuprebase = never
 [log]
@@ -48,3 +46,5 @@
 
 [mergetool]
 	keepBackup = false
+[pull]
+	rebase = false

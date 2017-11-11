@@ -4,7 +4,7 @@ set encoding=utf-8
 set number " line number
 set ruler " show the line and column number of the cursor position
 set title
-set mouse=a
+"set mouse=a
 
 filetype plugin indent on
 set smarttab
